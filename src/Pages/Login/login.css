@@ -1,0 +1,183 @@
+/* .bodyPart {
+  position: relative;
+  top: -100px;
+  bottom: -500px;
+  background-color: red;
+} */
+
+.login-form {
+  width: 400px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+  background-color: white;
+  /* border: 1px solid #dbdbdb; */
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 10vh;
+  padding: 20px;
+}
+
+.div-login {
+  /* width: 200px;
+  height: 300px; */
+  /* width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; */
+  overflow: hidden;
+
+  /* margin: 20px; */
+  /* margin-top: 10vh;
+  background-color: white; */
+}
+
+.div-login-logo {
+  height: 70px;
+
+  float: left;
+  margin-right: 15px;
+}
+
+.paragraph {
+  font-size: 20px;
+
+  /* margin-left: -30px; */
+  position: relative;
+  margin-top: -25px;
+}
+.myGover {
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.energy {
+  font-size: 12px;
+  position: relative;
+  bottom: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.department {
+  font-size: 15px;
+  color: dodgerblue;
+  position: relative;
+  bottom: 38px;
+  left: 99px;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.clientLogin {
+  text-align: center;
+  color: rgba(30, 90, 158, 0.856);
+  position: relative;
+  bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.myForm {
+  /* padding: 20px; */
+}
+.inputField {
+  width: 95%;
+  border: 1px solid #dbdbdb;
+  padding: 8px;
+  margin: 2px 0;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: none;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.loginButton {
+  position: relative;
+  left: 58px;
+  top: 5px;
+  width: 70px;
+  height: 30px;
+  margin: 5px 0;
+  background-color: dodgerblue;
+  font-family: "Open Sans Condensed", sans-serif;
+  padding: 5px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* border-radius: 5px;
+  float: right; */
+}
+.remembar-me {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.myCheckbox {
+  /* float: left; */
+  position: relative;
+  top: 7px;
+  right: 60px;
+}
+.rem {
+  position: relative;
+  bottom: 15px;
+  right: 111px;
+}
+.forgetUp {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgetUp.backHome {
+  text-align: center;
+}
+
+.backHome {
+  /* text-align: center;
+  width: 70px;
+  height: 30px; */
+  width: 70px;
+  margin: 5px 0;
+  background-color: dodgerblue;
+  font-family: "Open Sans Condensed", sans-serif;
+  padding: 5px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  /* border-radius: 5px; */
+  text-align: center;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
+.button {
+  background-color: #3e6658;
+  color: white;
+  padding: 5% 5%;
+  margin: 5% 0;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  /* border: 1px solid red; */
+  border-radius: 15px;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.login-form {
+  margin: 5%;
+  padding: 4%;
+  border-radius: 20px;
+  background-color: rgb(213, 221, 218);
+  box-shadow: 5px 5px #bdd1ca;
+}
